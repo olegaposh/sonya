@@ -1,9 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap');
+
 #bar {
-    
-    color: #FFFFFF;
-    /* background: #333333; */
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-    color: #FFFFFF;
+    margin: 20px;
+}
+
+.menu {
+    font-family: 'Laila', serif;
+    font-weight: 400;
+    color: #1988c9;
     /* background: #333333; */
     font-size: 24px;
 }
+
+.menu:hover {
+    text-shadow: 2px 2px 3px #f0e737;
+    box-shadow: 0px 1px 0px 3px #f0e737;
+    border-radius: 100px;
+  }

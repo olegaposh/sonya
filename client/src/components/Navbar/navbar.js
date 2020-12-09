@@ -9,13 +9,13 @@ const navbar = () => (
   
 
     <MDBNav id="bar" className="justify-content-center">
-      <MDBNavLink active to="#!">Gallery</MDBNavLink>
-      <MDBNavLink to="#!">Workshops</MDBNavLink>
-      <MDBNavLink to="#!">Retreats</MDBNavLink>
-      <MDBNavLink to="#!">Contacts</MDBNavLink>
-      <MDBNavLink to="#!">Blog</MDBNavLink>
-      <MDBNavLink to="#!">Poetry</MDBNavLink>
-      <MDBNavLink to="#!">Work With Me</MDBNavLink>
+      <MDBNavLink className="menu" active to="#!">Gallery</MDBNavLink>
+      <MDBNavLink className="menu" to="#!">Workshops</MDBNavLink>
+      <MDBNavLink className="menu" to="#!">Retreats</MDBNavLink>
+      <MDBNavLink className="menu" to="#!">Blog</MDBNavLink>
+      <MDBNavLink className="menu" to="#!">Meditations</MDBNavLink>
+      <MDBNavLink className="menu" to="#!">Poetry</MDBNavLink>
+      <MDBNavLink className="menu" to="#!">Contact Me</MDBNavLink>
     </MDBNav>
 
 
